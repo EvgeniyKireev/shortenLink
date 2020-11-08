@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f8ce1-9d4b-4ea4-a47e-af44f6c494e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <workItem from="1604515813297" duration="6458000" />
       <workItem from="1604664546991" duration="16022000" />
       <workItem from="1604744928002" duration="4615000" />
-      <workItem from="1604850322815" duration="2719000" />
+      <workItem from="1604850322815" duration="2866000" />
     </task>
     <servers />
   </component>
