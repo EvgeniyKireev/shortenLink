@@ -1,6 +1,6 @@
 import React from 'react';
 export const LinkCard = ({link}) => {
-    return <div>
+    return <div style={{marginLeft: '30px'}}>
         <h2>Ссылка</h2>
         <div>
         Ваша ссылка: {link.from}

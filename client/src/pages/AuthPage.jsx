@@ -34,7 +34,7 @@ export const AuthPage = (props) => {
             <div className={s.btn}><Button onClick={loginHandler} variant="contained" color="primary">
                 Войти</Button>
                 <Button onClick={registerHandler} variant="contained">Зарегистрироваться</Button></div>
-            <div>{error}</div>
+            <div className={s.error}>{error}</div>
         </div>
     </div>);
 

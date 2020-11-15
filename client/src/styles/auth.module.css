@@ -31,3 +31,94 @@ margin-top: 20px;
 .btn button {
     margin-right: 20px;
 }
+.error{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: White;
+}
+@media all and (max-width: 500px) {
+    .authPage {
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .inputField {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .header {
+        margin-left: 20px;
+    }
+    .email {
+        margin-top: 20px;
+    }
+    .password {
+        margin-top: 20px;
+    }
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .btn button {
+        margin-right: 20px;
+    }
+    .error{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 17px;
+        color: White;
+    }
+}
+@media all and (max-width: 321px) {
+    .authPage {
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .inputField {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .header {
+        margin-left: 20px;
+    }
+    .email {
+        margin-top: 20px;
+    }
+    .password {
+        margin-top: 20px;
+    }
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .btn button {
+        margin-right: 10px;
+    }
+    .error{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 15px;
+        color: White;
+    }
+}

@@ -1,4 +1,14 @@
-.linkedList{
+.linkedList {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 500px) {
+    .linkedList {
+        display: flex;
+    }
+    .sokr{
+        display: none;
+    }
 }

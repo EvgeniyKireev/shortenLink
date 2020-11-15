@@ -8,10 +8,10 @@ export const LinksList = ({links}) => {
     return <div className={s.linkedList}>
         <table>
             <thead>
-            <tr>
+            <tr >
                 <th>№</th>
                 <th>Оригинальная</th>
-                <th>Сокращенная</th>
+                <th className={s.sokr}>Сокращенная</th>
                 <th>Открыть</th>
             </tr>
             </thead>
@@ -22,7 +22,7 @@ export const LinksList = ({links}) => {
                     <tr key={link._id}>
                         <td>{index + 1}</td>
                         <td>{link.from}</td>
-                        <td>{link.to}</td>
+                        <td className={s.sokr}>{link.to}</td>
                         <td>
                             <Link to={`/detail/${link._id}`}>Открыть</Link>
                         </td>
